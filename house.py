@@ -5,8 +5,8 @@ import pickle
 
 # Load trained model and scaler
 # model=pickle.load(open('house.pkl','rb'))
-model = pickle.load(open)
-scaler = pickle.load(open)
+model = pickle.load(open("house.pkl", "rb"))
+scaler = pickle.load(open("scaler.pkl","rb"))
 # model = pickle.load(open("house.pkl", "rb"))
 # scaler = pickle.load(open("scaler.pkl", "rb"))
 
@@ -34,3 +34,4 @@ if st.button("Predict House Price"):
     predicted_price = model.predict(new_house_scaled)[0]
     
     st.success(f"Predicted House Price: RS {predicted_price:,.2f}")
+
