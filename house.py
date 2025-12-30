@@ -5,8 +5,8 @@ import pickle
 
 # Load trained model and scaler
 # model=pickle.load(open('house.pkl','rb'))
-model = pickle.load(open(r"C:\Users\E6440\Desktop\House_price_prediction\india_1\house.pkl", "rb"))
-scaler = pickle.load(open(r"C:\Users\E6440\Desktop\House_price_prediction\india_1\scaler.pkl", "rb"))
+model = pickle.load(open)
+scaler = pickle.load(open)
 # model = pickle.load(open("house.pkl", "rb"))
 # scaler = pickle.load(open("scaler.pkl", "rb"))
 
